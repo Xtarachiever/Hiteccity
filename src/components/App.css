@@ -1,6 +1,7 @@
 .btn,.btn:hover{
     color: white;
     border:none;
+    padding:14px;
 }
 .btn-primary,.btn-primary:hover{
     background-color: #4482ff;
@@ -10,6 +11,7 @@
 }
 .btn-blue{
     background-color:rgb(59, 89, 152);
+    padding:14px auto;
 }
 .btn-danger,.btn-danger:hover{
     background-color: rgb(221, 75, 57);

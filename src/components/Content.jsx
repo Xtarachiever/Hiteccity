@@ -19,14 +19,14 @@ function Content() {
         </div>
         <div className="d-flex mt-3 w-100 align-items-center justify-content-between">
           <div className='d-flex'>
+            <label htmlFor="check" style={{fontSize:"13px"}}>
             <input
               type="checkbox"
               id="check"
               name="check"
               className="form-check-input"
             />
-            <label htmlFor="check" className="px-2" style={{fontSize:"13px"}}>
-              Remember me
+            <span className='px-2'>Remember me</span>
             </label>
           </div>
           <Button btn="btn-primary" name="Sign in" />
@@ -42,7 +42,7 @@ function Content() {
         </div>
       </div>
       <div style={{ borderTop: "1px dashed #d8d8d8",width:"100%", paddingTop:"40px" }}>
-        <div style={{display:'flex', flexDirection:"column", height:"210px",justifyContent:"space-between",marginBottom:"40px"}}>
+        <div style={{display:'flex', flexDirection:"column", height:"250px",justifyContent:"space-between",marginBottom:"40px"}}>
           <Button btn="btn-blue" name="Sign in with Facebook"/>
           <Button btn="btn-danger" name="Sign in with Google Plus"/>
           <Button btn="btn-secondary" name="Sign in with Auth0"/>
