@@ -5,6 +5,7 @@
 }
 .btn-primary,.btn-primary:hover{
     background-color: #4482ff;
+    padding: 9px;
 }
 .btn-primary:hover{
     opacity: 80%;
@@ -60,7 +61,6 @@ h6.password:hover{
 .content, .content div{
     width: 100%;
 }
-
 @media (max-width:500px){
     .main .contents{
         width: 100%;

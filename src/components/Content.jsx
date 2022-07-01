@@ -29,7 +29,7 @@ function Content() {
             <span className='px-2'>Remember me</span>
             </label>
           </div>
-          <Button btn="btn-primary" name="Sign in" />
+          <Button btn="btn-primary" name="Sign in" className="sign-up"/>
         </div>
         <div
           className="d-flex align-items-center justify-content-start w-100 mt-3"
