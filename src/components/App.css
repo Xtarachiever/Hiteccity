@@ -1,21 +1,29 @@
-.btn{
+.btn,.btn:hover{
     color: white;
+    border:none;
 }
-.btn-primary{
+.btn-primary,.btn-primary:hover{
     background-color: #4482ff;
+}
+.btn-primary:hover{
+    opacity: 80%;
 }
 .btn-blue{
     background-color:rgb(59, 89, 152);
 }
-.btn-danger{
+.btn-danger,.btn-danger:hover{
     background-color: rgb(221, 75, 57);
 }
-.btn-secondary{
+.btn-secondary,.btn-secondary:hover{
     background-color: rgb(221, 70, 21);
 }
 .btn-warning{
     background-color: rgb(255, 202, 40);
     color: white;
+}
+h6.password:hover{
+    cursor: pointer;
+    color: #0d6efd !important;
 }
 .main{
     background: url('../images/sign.adf5846b.jpg') center center no-repeat;

@@ -49,7 +49,7 @@ function Content() {
           <Button btn="btn-warning" name="Sign in with Firebase"/>
         </div>
         <div className="d-flex flex-column align-items-center pb-3 pt-3">
-          <h6 style={{ fontSize: "12px",color:"#797979"}}>
+          <h6 style={{ fontSize: "12px",color:"#797979"}} className="password">
             Forget Password
           </h6>
           <a href="!#" style={{ textDecoration:"none", marginBottom:"50px",fontSize:"14px"}}>Create an Isomorphic account</a>
