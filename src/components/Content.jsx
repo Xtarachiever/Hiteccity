@@ -6,10 +6,10 @@ import './App.css'
 
 function Content() {
   return (
-    <div className="d-flex align-items-center flex-column p-3 p-md-5 py-3 w-100">
-      <div style={{marginBottom:"50px",width:"100%"}}>
-        <h4
-          style={{ color: "#788195", fontWeight: 300, margin: "50px auto", textAlign:"center" }}
+    <div className="d-flex align-items-center flex-column pt-5 p-3 p-md-5 w-100">
+      <div style={{marginBottom:"50px",width:"100%"}} className="mt-3">
+        <h4 className="pb-4"
+          style={{ color: "#788195", fontWeight: 300, textAlign:"center" }}
         >
           ISOMORPHIC
         </h4>
